@@ -1,0 +1,26 @@
+.products {
+    width: 95%;
+    margin: auto;
+}
+
+
+@media (min-width: 768px) {
+    .products {
+        width: 80%;
+    }   
+}
+
+.pagination li {
+    display: inline-block; /* Makes the list items inline */
+    margin: 0 5px; /* Adds some space between the items */
+    padding: 5px 10px; /* Adds some padding */
+    cursor: pointer; /* Changes the cursor to pointer */
+    border: 1px solid #ccc; /* Optional: Adds a border for better visibility */
+    border-radius: 4px; /* Optional: Rounds the corners */
+    background-color: #f9f9f9; /* Optional: Adds a background color */
+    transition: background-color 0.3s; /* Optional: Adds a transition effect */
+  }
+  
+  .pagination li:hover {
+    background-color: #e0e0e0; /* Changes background color on hover */
+  }
